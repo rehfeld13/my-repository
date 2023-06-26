@@ -3,7 +3,7 @@ import { Star } from '@phosphor-icons/react'
 import './Repositorio.css'
 
 export function Repositorio() {
-  const token = import.meta.env.VITE_GITHUB_TOKEN;
+  const token = import.meta.env.VITE_GITHUB_TOKEN
 
   const headers = {
     'Authorization': `Token ${token}`
