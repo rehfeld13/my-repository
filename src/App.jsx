@@ -1,9 +1,9 @@
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
-import { RepositoryList } from './components/RepositoryList'
+import { Repositorio } from './components/Repositorio'
+import { BackToTop } from './components/BackToTop'
 
 import './App.css'
-import { BackToTop } from './components/BackToTop'
 
 export function App() {
   return (
@@ -11,7 +11,7 @@ export function App() {
       <Header />
 
       <article>
-        <RepositoryList />
+        <Repositorio />
       </article>
 
       <BackToTop />
