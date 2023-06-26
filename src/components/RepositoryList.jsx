@@ -3,7 +3,7 @@ import { Star } from '@phosphor-icons/react'
 import './RepositoryList.css'
 
 export function RepositoryList(){
-  const token = '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'
+  const token = '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'
 
   const headers = {
   'Authorization': `Token ${token}`
